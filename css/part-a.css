@@ -5,3 +5,90 @@
    אסור לעצב כאן תגיות חשופות (div, a, ul, h2...) ואסור לשנות את .wrap
    ========================================================== */
 
+
+
+   .Top{
+      height: 400px;
+      width: 100%;
+      
+   }
+   .topPage{
+     height:30px ;
+     width: 100%;
+     border:1px solid blue;
+     background-color: var(--blue);
+     display: flex;
+     justify-content: space-between;
+   }
+
+   .downloud{
+      background-color: white;
+      color: var(--blue);
+      border-radius: 15px;
+      height: 24px;
+      width: 55px;
+      margin-left: 40px;
+   }
+
+   .tupCenter{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 5px;
+   }
+
+   .nameWeb{
+    
+      height: 50px;
+      width: 150px;
+      background-color:var(--blue);
+      border-radius: 10px;
+      color: white;
+       margin-right: 55px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+   }
+
+
+   .icon{
+       height: 30px;
+       width: 110px;
+       margin-left: 80px;
+       display: flex;
+      justify-content:space-around;
+     
+   }
+
+   .icon1{
+      border: 1px solid grey;
+      border-radius: 50%;
+      width: 28px;
+       align-items: center;
+       background-color:var(--border) ;
+      display: flex;
+      justify-content:space-around;
+   }
+
+   .navBartop{
+      height:50px ;
+     width: 100%;
+     border:1px solid blue;
+     background-color: var(--blue);
+   
+   }
+   
+   .navBar1{
+      width: 80%;
+       display: flex;
+      justify-content: space-between;
+       flex-direction: row;
+       margin-right: 100px;
+         margin-top: 10px;
+       color: white;
+   
+   }
